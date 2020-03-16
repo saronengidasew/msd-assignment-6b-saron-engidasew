@@ -1,0 +1,7 @@
+1. We use "git add filename" or "git add ." to track a file in our repository. When we try to track a file inside a folder that was not initialized, the file will not be tracked because it is not a git repository. We will get this message "fatal: not a git repository (or any of the parent directories): .git "
+
+2. git add . then git commit -m "Added source code files" or git add -am "Added source code files" if the file is not new
+
+3. Git is a system which allows us to track changes we create in our codes(files). It is useful because it allows users to track their progress and have different versions of their project. It also makes it easy to collaborate with others.
+
+4. If we create a new folder and place our source code in that folder, this folder is not a repository. For that folder to become a repo, we have to initialize it. 

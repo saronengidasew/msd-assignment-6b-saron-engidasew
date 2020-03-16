@@ -1,0 +1,9 @@
+1. git checkout -b branchname
+
+2. No it's not a good idea to work on a single branch especially the master. It's good practice to branch our repository based on features. The master branch is deployable and must be stable. Therefore messing with the master branch is risky. Branching allows us to experiment and work on a project without affecting the master branch. This makes it harder for unstable code to get merged into the master. Hence we should use branches instead of working on the master.
+
+3. One of the things the .git folder contains is the HEAD file. This file shows to the current branch that the head is pointing at(the current branch we are working on). The objects folder contains all the commit of the repository.
+
+4. First we have to be on the master branch to merge the fixes branch so we checkout to the master branch then do the merge. So we do the following: 
+git checkout master
+git merge fixes 
