@@ -1,3 +1,13 @@
 1. git pull remote-name
 
-2. 
+2. 2. A fast-forward merge can occur when there is a linear path from the most recent commit on both branches to the source branch. A three-way merge happens when there isn't a linear path between the most recent commit on both branches and the latest commit on the source branch. It uses an extra commit to tie together the two branches. This may happen if people working on the project take too long to commit and push changes.
+
+3. 
+
+4. Conflicts during merging can happen when people make different changes on the same file or when a person edits a file while another deletes it. These conflicts can be dealt with by undoing the merge using the "git merge --abort" which return the branches to their original state. Another way is to manually resolve the merge by removing the conflict markers and the changes you don't want to keep.
+
+5. git checkout master
+   git merge develop
+   git commit -am "Commit message"
+   git remote add origin URL
+   git push origin master
