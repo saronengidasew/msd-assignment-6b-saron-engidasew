@@ -1,3 +1,3 @@
 1. I would suggest they use JSON instead of XML. It's a good idea to use JSON because JSON is short, simple and self-descriptive. It also supported by a wide range of languages. It is also better than XML as it stores and exchange information from one form to another. Therefore I would suggest they use JSON.
 
-2. 
+2. Yes there's a problem with it. It should always say invalid username or password. Showing which one of the two is incorrect makes it easy for malicious users to have access. If an attacker knows the username is invalid, he/she could concentrate his effort on that particular account using using SQL injection or brute-forcing the password. Therefore it should always return invalid username or password whatever the case is.(case being incorrect password, incorrect username or incorrect password and username)
